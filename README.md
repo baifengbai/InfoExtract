@@ -10,3 +10,26 @@
 ### shenglv.ipynb
 
 - 爬取声律启蒙并转为胎教音乐，用到baidu aip-speech
+
+### BaiduNews.py
+
+- 通过关键词爬取百度新闻分析新闻热度及媒体分布
+
+
+### itchat_poem.ipynb
+
+- itchat微信自定义机器人，定时发送指定内容
+
+### ppt_correct.ipynb
+
+- 手机拍摄的PPT图片歪斜自动校正
+
+-[](./img/ppt0.jpg)
+-[](./img/ppt1.jpg)
+
+### seamcarver 
+
+- 图片内容感知缩放，不会导致图片失真
+
+-[](./img/truck.gif)
+

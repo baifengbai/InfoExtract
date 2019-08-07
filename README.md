@@ -6,6 +6,12 @@
 - 2.ABBYY表格信息OCR提取
 - 3.python可视化无人驾驶公司统计信息
 
+### ppt2reveal.py
+
+- 通过python将ppt转为reveal.js,解决不同机器因office 版本出现的异常播放问题
+
+
+![](./img/ppt.gif)
 
 ### shenglv.ipynb
 

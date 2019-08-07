@@ -10,7 +10,7 @@
 
 - 通过python将ppt转为reveal.js,解决不同机器因office 版本出现的异常播放问题
 
-![online demo ](https://baifengbai.github.io/2_reveal)
+[online demo ](https://baifengbai.github.io/2_reveal)
 ![](./img/ppt.gif)
 
 ### shenglv.ipynb

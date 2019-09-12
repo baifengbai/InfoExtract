@@ -48,7 +48,7 @@
 
 - 微信爬虫，文本摘要，语音合成，非结构化数据提取等
 
--[](./img/aicar.jpg)
+！[](./img/aicar.jpg)
 
 =======
 ```python
@@ -60,4 +60,4 @@ for dirpath, dirnames, filenames in os.walk('./'):
             with open('./{}'.format(file),'r') as f:
                 f1.write(f.read())
 ```
->>>>>>> 0da0d81c81504a441bc37fb38e86cd928c09e15c
+

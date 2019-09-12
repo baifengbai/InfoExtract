@@ -6,6 +6,12 @@
 - 2.ABBYY表格信息OCR提取
 - 3.python可视化无人驾驶公司统计信息
 
+### ppt2reveal.py
+
+- 通过python将ppt转为reveal.js,解决不同机器因office 版本出现的异常播放问题
+
+[online demo ](https://baifengbai.github.io/2_reveal)
+![](./img/ppt.gif)
 
 ### shenglv.ipynb
 
@@ -24,18 +30,34 @@
 
 - 手机拍摄的PPT图片歪斜自动校正
 
--[](./img/ppt0.jpg)
--[](./img/ppt1.jpg)
+![](./img/ppt0.jpg)
+![](./img/ppt1.jpg)
 
 ### seamcarver 
 
 - 图片内容感知缩放，不会导致图片失真
 
--[](./img/truck.gif)
+![](./img/truck.gif)
 
+### combine_files.py
+
+- 合并markdown文件
+
+<<<<<<< HEAD
 ### 汽车新技术日报aicar.ipynb 
 
 - 微信爬虫，文本摘要，语音合成，非结构化数据提取等
 
 -[](./img/aicar.jpg)
 
+=======
+```python
+import os
+f1=open('test.md','w+')
+for dirpath, dirnames, filenames in os.walk('./'):
+    for file in filenames:
+        if file.endswith('.md'):
+            with open('./{}'.format(file),'r') as f:
+                f1.write(f.read())
+```
+>>>>>>> 0da0d81c81504a441bc37fb38e86cd928c09e15c
